@@ -1,0 +1,144 @@
+palette node 0.2 0.2 0.2 0.1
+palette edge 0.2 0.2 0.2 0.1
+palette move1 0.1 0.1 0.8 0.2
+palette move2 0.1 0.8 0.1 0.2
+palette move3 0.8 0.1 0.1 0.2
+define v1 ellipse 5 5 node
+define v2 ellipse 5 5 node
+define v3 ellipse 5 5 node
+define v4 ellipse 5 5 node
+define v5 ellipse 5 5 node
+define v6 ellipse 5 5 node
+define v7 ellipse 5 5 node
+define v8 ellipse 5 5 node
+define v9 ellipse 5 5 node
+define v10 ellipse 5 5 node
+define v11 ellipse 5 5 node
+define v12 ellipse 5 5 node
+define v13 ellipse 5 5 node
+define v14 ellipse 5 5 node
+define v15 ellipse 5 5 node
+define v16 ellipse 5 5 node
+define v17 ellipse 5 5 node
+define v18 ellipse 5 5 node
+define v19 ellipse 5 5 node
+define v20 ellipse 5 5 node
+define e1-2 link v1 v2 1 edge
+define e1-3 link v1 v3 1 edge
+define e1-12 link v1 v12 1 edge
+define e1-15 link v1 v15 1 edge
+define e2-4 link v2 v4 1 edge
+define e2-5 link v2 v5 1 edge
+define e2-6 link v2 v6 1 edge
+define e2-8 link v2 v8 1 edge
+define e2-11 link v2 v11 1 edge
+define e2-19 link v2 v19 1 edge
+define e3-10 link v3 v10 1 edge
+define e3-15 link v3 v15 1 edge
+define e3-7 link v3 v7 1 edge
+define e4-7 link v4 v7 1 edge
+define e4-14 link v4 v14 1 edge
+define e5-11 link v5 v11 1 edge
+define e6-9 link v6 v9 1 edge
+define e6-8 link v6 v8 1 edge
+define e7-13 link v7 v13 1 edge
+define e7-12 link v7 v12 1 edge
+define e7-20 link v7 v20 1 edge
+define e7-15 link v7 v15 1 edge
+define e8-12 link v8 v12 1 edge
+define e8-18 link v8 v18 1 edge
+define e8-19 link v8 v19 1 edge
+define e10-13 link v10 v13 1 edge
+define e11-19 link v11 v19 1 edge
+define e12-16 link v12 v16 1 edge
+define e12-17 link v12 v17 1 edge
+define e18-20 link v18 v20 1 edge
+spring /./
+display
+wait
+color v17 white
+color v15 white
+color v12 move3
+palette c1217-0 0.8 0.1 0.1 0.30000000000000004
+color e12-17 c1217-0
+color v1 move3
+palette c115-0 0.8 0.1 0.1 0.30000000000000004
+color e1-15 c115-0
+color v3 move3
+palette c315-0 0.8 0.1 0.1 0.30000000000000004
+color e3-15 c315-0
+color v7 move3
+palette c715-0 0.8 0.1 0.1 0.30000000000000004
+color e7-15 c715-0
+color v17 move3
+color v15 move3
+display
+kill /i./
+color v7 white
+color v4 white
+color v3 move3
+palette c37-1 0.8 0.1 0.1 0.30000000000000004
+color e3-7 c37-1
+color v4 move3
+palette c47-1 0.8 0.1 0.1 0.30000000000000004
+color e4-7 c47-1
+color v12 move3
+palette c712-1 0.8 0.1 0.1 0.30000000000000004
+color e7-12 c712-1
+color v13 move3
+palette c713-1 0.8 0.1 0.1 0.30000000000000004
+color e7-13 c713-1
+color v15 move3
+palette c715-1 0.8 0.1 0.1 0.4
+color e7-15 c715-1
+color v20 move3
+palette c720-1 0.8 0.1 0.1 0.30000000000000004
+color e7-20 c720-1
+color v2 move3
+palette c24-1 0.8 0.1 0.1 0.30000000000000004
+color e2-4 c24-1
+color v14 move3
+palette c414-1 0.8 0.1 0.1 0.30000000000000004
+color e4-14 c414-1
+color v7 move3
+palette c47-1 0.8 0.1 0.1 0.4
+color e4-7 c47-1
+color v7 move3
+color v4 move3
+display
+kill /i./
+color v7 white
+color v4 white
+color v3 move3
+palette c37-2 0.8 0.1 0.1 0.4
+color e3-7 c37-2
+color v4 move3
+palette c47-2 0.8 0.1 0.1 0.5
+color e4-7 c47-2
+color v12 move3
+palette c712-2 0.8 0.1 0.1 0.4
+color e7-12 c712-2
+color v13 move3
+palette c713-2 0.8 0.1 0.1 0.4
+color e7-13 c713-2
+color v15 move3
+palette c715-2 0.8 0.1 0.1 0.5
+color e7-15 c715-2
+color v20 move3
+palette c720-2 0.8 0.1 0.1 0.4
+color e7-20 c720-2
+color v2 move3
+palette c24-2 0.8 0.1 0.1 0.4
+color e2-4 c24-2
+color v14 move3
+palette c414-2 0.8 0.1 0.1 0.4
+color e4-14 c414-2
+color v7 move3
+palette c47-2 0.8 0.1 0.1 0.6
+color e4-7 c47-2
+color v7 move3
+color v4 move3
+display
+kill /i./
+display
+wait
